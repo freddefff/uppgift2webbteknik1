@@ -9,7 +9,7 @@ body {
 #main-nav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(17, 15, 15);
+    background-color: transparent;
     padding: 2em;
 }
 
@@ -29,6 +29,27 @@ nav a:hover {
     font-size: 1.2em;
     color: rgb(37, 37, 37);
 }
+
+nav a.active {
+    font-weight: bold;
+    color: aqua;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
 
 @media only screen and (max-width: 700px) {
     body {
@@ -52,3 +73,4 @@ nav a:hover {
         padding: 0.4em 0.6em
     }
 }
+
