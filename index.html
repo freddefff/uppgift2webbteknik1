@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Sida ett</title>
+
+    <link rel="stylesheet" href="webbplats.css">
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="special-link">Sida ett</a>
+        <a href="sida2.html">Sida två</a>
+        <a href="sida3.html">Sida tre</a>
+
+
+
+    </nav>
+
+
+    <h1>Frågor för sida ett</h1>
+
+
+    <h2>Vad avses med termerna klient och server?</h2>
+    <p>Termen klient syftar till en dator, ett program eller en enhet som hämtar information/resurser från serversida.
+    </p>
+
+    <h2>Beskriv vad var och en av protokollen TCP och IP gör på sändande och mottagande sida.</h2>
+    <p>TCP, eller transmission control protocol syftar till att upprätta en datorkommunikation mellan sändare och
+        mottagare. Från det sändande sidan paketeras data och tilldelas ett sekvensnummer som har i syfte att se till
+        att den data som skickar kommer i rätt ordning.
+        Från mottagande sida tar TCP emot och ordnar segment i rätt följd och skickar sedan tillbaka en bekräftelse per
+        segment.
+
+        IP, eller internet protocol adresserar och skickar paket över nätet.
+        Från sändande sida lägger IP till adresser och paketerar data för att sedan skickas över nätet.
+        Från mottagande sida kontrolleras IP och dirigeras till rätt slutadress.
+    </p>
+
+    <h2>Beskriv de delar som URLn består av.</h2>
+    <p> HTTP - är det protokoll som används, det vill säga Hypertext transfer protocol.
+        Webbteknik.abc.se - är domännamnet som visar vilken server som resursen är tillgänglig på.
+        8082 - är det portnummer som fungerar som en dörr.
+        /kurs1/uppg/u1.html - Syftar till den specifika sökvägen
+        #fragor - är en såkallad fragmentidentifierare, som pekar på en specifik del av webbplatsen
+    </p>
+    <img src="serverklientsida.png" alt="">
+</body>
+
+</html>
