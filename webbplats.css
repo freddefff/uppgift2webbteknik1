@@ -24,7 +24,7 @@ nav a {
 
 nav a:hover, nav a:focus {
     color: black;
-    transform: scale(1.6);
+    transform: scale(1.0);
     background-color: transparent;
 }
 
@@ -47,7 +47,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgba(red, green, blue, alpha);
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 0.5em 0;
