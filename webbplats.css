@@ -22,15 +22,11 @@ nav a {
     display: inline-block;
 }
 
-nav a:hover, nav a:focus {
-    color: black;
+nav a:hover,
+nav a:focus {
+    color: rgb(245, 238, 238);
     transform: scale(1.4);
     background-color: transparent;
-}
-
-.special-text {
-    font-size: 1.2em;
-    color: rgb(37, 37, 37);
 }
 
 nav a.active {
