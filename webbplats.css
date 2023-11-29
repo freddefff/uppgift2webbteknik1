@@ -65,10 +65,18 @@ footer {
     #main-nav {
         padding: 0.5em;
     }
+    nav a {
+        padding: 0.3em;
+        transform: none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     nav a {
         padding: 0.4em 0.6em
+    }
+    footer {
+        position: relative;
+        padding: 1em 0;
     }
 }
